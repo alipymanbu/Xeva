@@ -1,24 +1,24 @@
-# Xeva: XEnograft Visualization & Analysis
+# XEva
 
-## Integration of molecular and pharmacological profiles of patient-derived xenograft models.
+本仓库是「XEva」的安卓版本获取入口，附使用资料索引。
 
-### Abstract
-One of the key challenges in cancer precision medicine is finding robust biomarkers of drug response. Patient-derived tumor xenografts (PDXs) have emerged as reliable preclinical models since they better recapitulate tumor response to chemo- and targeted therapies. However, the lack of standard tools poses a challenge in the analysis of PDXs with molecular and pharmacological profiles. Efficient storage, access and analysis is key to the realization of the full potential of PDX pharmacogenomic data. We have developed Xeva (XEnograft Visualization & Analysis), an open-source software package for processing, visualization and integrative analysis of a compendium of in vivo pharmacogenomic datasets. The Xeva package follows the PDX minimum information (PDX-MI) standards and can handle both replicate-based and 1x1x1 experimental designs. We used Xeva to characterize the variability of gene expression and pathway activity across passages. We found that only a few genes and pathways have passage specific alterations (median intraclass correlation of 0.53 for genes and positive enrichment score for 92.5% pathways). For example, activity of the mRNA 3'-end processing and elongation arrest and recovery pathways were strongly affected by model passaging (gene set enrichment analysis false discovery rate [FDR] <5%). We then leveraged our platform to link the drug response and the pathways whose activity is consistent across passages by mining the Novartis PDX Encyclopedia (PDXE) data containing 1,075 PDXs spanning 5 tissue types and 62 anticancer drugs. We identified 87 pathways significantly associated with response to 51 drugs (FDR < 5%), including associations such as erlotinib response and signaling by EGFR in cancer pathways and MAP kinase activation in TLR cascade and binimetinib response. Among the significant pathway-drug associations, we found novel biomarkers based on gene expressions, Copy Number Aberrations (CNAs) and mutations predictive of drug response (concordance index > 0.60; FDR < 0.05). Xeva provides a flexible platform for integrative analysis of preclinical in vivo pharmacogenomics data to identify biomarkers predictive of drug response, a major step toward precision oncology.
+## 安装文件资源（夸克网盘）
 
-## Citation
+> **XEva 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/1de38a175775](https://pan.quark.cn/s/1de38a175775)
 
-Integrative Pharmacogenomics Analysis of Patient Derived Xenografts. Mer AS, Ba-alawi W, Smirnov P, Wang YX, Brew B, Ortmann J, Tsao MS, Cescon DW, Goldenberg A, Haibe-Kains B. BioRxiv 2018, doi: https://doi.org/10.1101/471227
+## 官方项目
 
-## How to install
+- 上游项目：[bhklab/Xeva](https://github.com/bhklab/Xeva)
 
-- Install latest version of Xeva directly from Github using `devtools`:
-```
-library(devtools)
-devtools::install_github("bhklab/Xeva")
-```
-- To install from Bioconductor
-```
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-BiocManager::install("Xeva", version = "3.8")
-```
+## 更多资料
+
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/XEva/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [克隆人创建与养成](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/XEva/%E5%85%8B%E9%9A%86%E4%BA%BA%E5%88%9B%E5%BB%BA%E4%B8%8E%E5%85%BB%E6%88%90.md)
+- [冰花充值与付费模式](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/XEva/%E5%86%B0%E8%8A%B1%E5%85%85%E5%80%BC%E4%B8%8E%E4%BB%98%E8%B4%B9%E6%A8%A1%E5%BC%8F.md)
+- [常见问题与隐私安全](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/XEva/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E9%9A%90%E7%A7%81%E5%AE%89%E5%85%A8.md)
+- [聊天互动与粉丝群](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/XEva/%E8%81%8A%E5%A4%A9%E4%BA%92%E5%8A%A8%E4%B8%8E%E7%B2%89%E4%B8%9D%E7%BE%A4.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
+
+---
+
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/bhklab/Xeva)。
